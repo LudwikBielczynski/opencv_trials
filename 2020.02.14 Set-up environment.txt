@@ -1,0 +1,37 @@
+# install pyenv
+curl https://pyenv.run | bash
+
+# On mac
+brew update
+brew instal pyenv
+
+
+
+# install a version of python
+pyenv install 3.7.6
+
+# Create virtualenv
+pyenv virtualenv 3.7.6 opencv_env
+pyenv activate opencv_env
+pip install opencv-python
+
+# Create workspace folder
+mkdir ~/workspace/trials
+cd ~/workspace/trials
+touch trial.py
+
+# Install vscode
+# Download Visual Studio Code for macOS.
+https://code.visualstudio.com/docs?dv=osx
+# Double-click on the downloaded archive to expand the contents.
+# Drag Visual Studio Code.app to the Applications folder, making it available in the Launchpad.
+#Add VS Code to your Dock by right-clicking on the icon to bring up the context menu and choosing Options, Keep in Dock.
+
+# Install Python and Project manager extensions
+# Select interpreter from the new environment
+
+# Write hello world
+
+
+
+
